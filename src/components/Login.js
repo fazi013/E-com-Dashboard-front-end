@@ -1,9 +1,17 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const Navigate = useNavigate();
+    
+    useEffect(()=>{
+        const auth =localStorage.getItem('user');
+        if(auth){
+            Navigate('/');
+        }
+    
+     })
     const handlelogin = async () => {
         //console.log(email,password);
         let result = await fetch("http://localhost:1000/login",

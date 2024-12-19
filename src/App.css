@@ -1,19 +1,42 @@
-
-
-.Nav_ul li{
+.Nav_ul li {
   display: inline-block;
   padding: 3%;
-  
-  
+
+
 }
-.rigester{
-  margin-left: 30%;
+
+.validation {
+  margin-left: 18px;
+  color: red;
+  font-size: small;
 }
-.login{
+
+.rigester {
+  margin-left: 37%;
+}
+
+.addproduct {
+  margin-left: 37%;
+}
+
+.logo {
+  border-radius: 121px;
+  margin-top: 10px;
+  width: 54px;
+  margin-left: 10px;
+  float: left;
+}
+
+.login {
   margin-left: 37%;
   margin-top: 100px;
 }
-.button{
+
+.pre-auth {
+  text-align: right
+}
+
+.button {
   margin-top: 30px;
   display: block;
   padding: 10px;
@@ -22,8 +45,9 @@
   background-color: cyan;
   border-color: cyan;
 }
-.input{
-  
+
+.input {
+
   margin-top: 30px;
   padding: 12px;
   width: 300px;
@@ -31,26 +55,21 @@
   display: block;
 
 }
-.footer_div{
+
+.footer_div {
   background-color: aquamarine;
-    width: 100%;
-    text-align: center;
-    position: relative;
-    bottom: 0;
-    
+  width: 100%;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+
 }
-.Nav_ul li a{
+
+.Nav_ul li a {
   text-decoration: none;
 }
 
-.Nav_div{
+.Nav_div {
   background-color: aquamarine;
-  
+
 }
-
-
-
-
-
-
-
